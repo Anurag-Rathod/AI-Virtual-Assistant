@@ -1,6 +1,6 @@
 # 🤖 AI Virtual Assistant
 
-A full-stack **AI-powered virtual assistant** built with the **MERN stack** and **Google Gemini AI**. The application enables users to interact with an AI assistant through **text and voice**, with features including authentication, profile management, image uploads, and AI-generated responses.
+A full-stack **AI-powered virtual assistant** built with the **MERN stack** and **Google Gemini AI**. allowing users to interact with an intelligent assistant to answer queries, manage information, and receive real-time responses.
 
 ## ✨ Features
 
