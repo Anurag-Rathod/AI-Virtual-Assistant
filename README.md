@@ -6,7 +6,6 @@ A full-stack **AI-powered virtual assistant** built with the **MERN stack** and 
 
 * 🤖 **Gemini AI Integration** — Generates AI-powered responses using Google Gemini.
 * 🎙️ **Voice Interaction** — Supports voice input using the browser's Web Speech API.
-* 💬 **Text Interaction** — Allows users to communicate with the assistant through natural-language text queries.
 * 🔐 **JWT Authentication** — Implements user authentication and protected API access using JSON Web Tokens.
 * 🔒 **Password Hashing** — Passwords are hashed using `bcryptjs` before being stored.
 * 👤 **User Management** — Supports user registration, login, authentication, and profile management.
@@ -65,7 +64,7 @@ A full-stack **AI-powered virtual assistant** built with the **MERN stack** and 
                          │       User        │
                          └─────────┬─────────┘
                                    │
-                              Text / Voice
+                                 Voice
                                    │
                                    ▼
                          ┌───────────────────┐
@@ -96,8 +95,6 @@ A full-stack **AI-powered virtual assistant** built with the **MERN stack** and 
            └─────────────────┘
 ```
 
----
-
 ## 📂 Project Structure
 
 ```text
@@ -127,6 +124,7 @@ AI-Virtual-Assistant/
 │   └── vite.config.js
 │
 └── README.md
+
 ```
 
 ## 🔄 How the Application Works
@@ -169,7 +167,7 @@ Express REST API
 1. User registers or logs into the application.
 2. The backend validates the credentials and handles authentication using **JWT**.
 3. Passwords are hashed using **bcryptjs** before being stored.
-4. The authenticated user interacts with the assistant through text or voice.
+4. The authenticated user interacts with the assistant through voice.
 5. The React frontend sends requests to the Express backend using **Axios**.
 6. The backend processes the request and communicates with **Google Gemini AI**.
 7. Gemini generates the AI response.
