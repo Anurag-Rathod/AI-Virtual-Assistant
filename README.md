@@ -20,11 +20,17 @@ A full-stack **AI-powered virtual assistant** built with the **MERN stack** and 
 ## 🛠️ Tech Stack
 
 **Frontend:** React.js, JavaScript (ES6+), Vite, React Router, Tailwind CSS, Axios, React Icons, Web Speech API
+
 **Backend:** Node.js, Express.js, RESTful APIs, Multer, CORS, Cookie Parser, dotenv
+
 **Database:** MongoDB, Mongoose
+
 **Authentication:** JWT, bcryptjs
+
 **AI:** Google Gemini API
+
 **Cloud Storage:** Cloudinary
+
 **Development Tools:** Git, GitHub, VS Code, Nodemon
 
 ---
